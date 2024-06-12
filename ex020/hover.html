@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+div:hover{
+    color: rgb(255, 255, 255);
+    width: 200px;
+    background-color: rgb(93, 93, 215);
+}
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+}
+body{
+    background-color: rgba(141, 182, 219, 0.842);
+}
+    </style>
+
+</head>
+<body>
+    <h1>Hover e Div</h1>
+    <p>Clique no texto abaixo!</p>
+    <div>
+
+Passe o mause aqui 
+<p>Texto escondido heheeee</p>
+    </div>
+</body>
+</html>

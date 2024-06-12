@@ -1,0 +1,29 @@
+@charset "utf8";
+
+body{
+    background-image: linear-gradient(to right, #B4CF66, #146152, #44803F);
+}
+
+main{
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    margin: auto;
+    padding: 5px;
+    width: 600px
+}
+h1{color: #146152;
+text-align: center;
+text-shadow: 1px 1px 1px black;}
+
+h2{color: yellowgreen; transition: 0.3s;  text-shadow: 1px 1px 1px black;}
+h2:hover{
+    color: rgb(221, 255, 0);
+    font-size: 35px;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+p{
+    text-align: justify;
+}
+

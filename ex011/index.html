@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em dispositivos diferentes ou tente simplismente aumentar e diminuir o tamanho da tela.</p>
+
+    <picture>
+
+       <source media="(max-width:750px)" srcset="imagens/imagem-p.png" type="image/png"> 
+
+<source media="(max-width:1050px)" srcset="imagens/imagem-m.png" 
+type="image/png">
+
+<img src="imagens/imagem-g.png" alt=""/>
+
+    </picture>
+    
+    <H1>Testando áudios</H1>
+    <p>Abaixo vôce verá dois áudios.</p>
+    <audio src="midia/Don't Fret - Quincas Moreira.mp3" controls loop>
+
+ </audio>]
+ <p>Este áudio acima &uarr; está em loop</p>
+ <audio src="midia/Don't Fret - Quincas Moreira.mp3" controls>
+
+ </audio>
+ <p>Esta áudio acima &uarr; não está em loop!</p>
+ <P>Caso o áudio não esteja funcionando, <a href="midia/Don't Fret - Quincas Moreira.mp3" download="midia/Don't Fret - Quincas Moreira.mp3">clique aqui</a> para baixar o arquivo.</P>
+</body>
+</html>
